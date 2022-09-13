@@ -105,6 +105,8 @@ div {
 
 .main-para2-dark {
     color: hsl(219, 29%, 14%);
+    font-size: 0.8rem;
+    font-weight: 300;
 }
 
 @media screen and (min-width: 993px) {
