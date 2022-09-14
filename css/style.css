@@ -15,6 +15,19 @@
     background-color: hsl(263, 55%, 52%);    
     background-clip: padding-box;
     border: 15px solid transparent;
+    /* background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right top; */
+    position: relative;
+    z-index: 1;
+}
+
+.quotation {
+    z-index: -1;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    
 }
 
 
@@ -94,5 +107,18 @@ div {
 
 .main-para2-dark {
     color: hsl(219, 29%, 14%);
+    font-size: 0.8rem;
+    font-weight: 300;
 }
 
+@media screen and (min-width: 993px) {
+    .media-line {
+        line-height: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .media-line {
+        line-height: 0.5rem;
+    }
+  }
