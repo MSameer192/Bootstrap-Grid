@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
 
+.body {
+    background-color: rgb(213, 247, 247);
+}
 
 .container {
-    background-color: rgb(213, 247, 247);
     color: white;
     font-family: 'Barlow Semi Condensed', sans-serif;
     border-radius: 0;
